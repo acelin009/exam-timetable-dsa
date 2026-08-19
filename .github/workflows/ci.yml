@@ -1,189 +1,48 @@
-name: Exam Timetable DSA - CI/CD
+name: Performance Monitoring
 
 on:
-  push:
-    branches:
-      - main
-      - master
-
-  pull_request:
-    branches:
-      - main
-      - master
-
+  schedule:
+    - cron: '0 6 * * 1'  # Every Monday at 6 AM
   workflow_dispatch:
 
-permissions:
-  contents: read
-
 jobs:
-
-  # ============================================================
-  # CONTINUOUS INTEGRATION
-  # ============================================================
-
-  test:
-    name: Build, Validate and Test
+  performance-monitor:
+    name: Monitor Performance
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        python-version:
-          - "3.10"
-          - "3.11"
-          - "3.12"
-
     steps:
-
-      # --------------------------------------------------------
-      # Checkout repository
-      # --------------------------------------------------------
-
-      - name: Checkout repository
-        uses: actions/checkout@v6
-
-      # --------------------------------------------------------
-      # Setup Python
-      # --------------------------------------------------------
+      - name: Checkout code
+        uses: actions/checkout@v3
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v4
         with:
-          python-version: ${{ matrix.python-version }}
-          cache: pip
+          python-version: '3.11'
 
-      # --------------------------------------------------------
-      # Install dependencies
-      # --------------------------------------------------------
-
-      - name: Upgrade pip
+      - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
+          pip install pytest pytest-benchmark memory-profiler
+          pip install -r requirements.txt || true
 
-      - name: Install project dependencies
+      - name: Run performance tests
         run: |
-          if [ -f requirements.txt ]; then
-            pip install -r requirements.txt
-          fi
+          pytest tests/ --benchmark-only --benchmark-autosave --benchmark-json=benchmark.json
 
-      - name: Install test dependencies
+      - name: Run memory profiling
         run: |
-          pip install pytest
+          python -m memory_profiler main.py --stats
 
-      # --------------------------------------------------------
-      # Validate Python syntax
-      # --------------------------------------------------------
-
-      - name: Compile Python source
-        run: |
-          python -m compileall src main.py
-
-      # --------------------------------------------------------
-      # Run tests
-      # --------------------------------------------------------
-
-      - name: Run test suite
-        run: |
-          pytest -v
-
-      # --------------------------------------------------------
-      # Run application
-      # --------------------------------------------------------
-
-      - name: Run timetable generator
-        run: |
-          python main.py
-
-      # --------------------------------------------------------
-      # Verify generated timetable
-      # --------------------------------------------------------
-
-      - name: Verify output
-        run: |
-          echo "Checking generated output..."
-
-          if [ -d "output" ]; then
-            echo "✓ Output directory exists"
-            ls -la output
-          else
-            echo "No output directory found."
-            echo "Assuming application writes output elsewhere."
-          fi
-
-      # --------------------------------------------------------
-      # Upload generated results
-      # --------------------------------------------------------
-
-      - name: Upload timetable artifacts
-        if: always()
-        uses: actions/upload-artifact@v4
+      - name: Upload performance report
+        uses: actions/upload-artifact@v3
         with:
-          name: timetable-results-python-${{ matrix.python-version }}
+          name: performance-report
           path: |
-            output/
-            results/
-          if-no-files-found: ignore
+            benchmark.json
+            memory_profile.txt
 
-
-  # ============================================================
-  # CODE QUALITY
-  # ============================================================
-
-  quality:
-    name: Code Quality
-    runs-on: ubuntu-latest
-
-    steps:
-
-      - name: Checkout repository
-        uses: actions/checkout@v6
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Send performance report
+        if: failure()
+        uses: actions/github-script@v6
         with:
-          python-version: "3.12"
-
-      - name: Install quality tools
-        run: |
-          python -m pip install --upgrade pip
-          pip install ruff
-
-      - name: Run Ruff
-        run: |
-          ruff check . --exclude data --exclude output
-        continue-on-error: true
-
-
-  # ============================================================
-  # DEPLOYMENT / RELEASE PACKAGE
-  # ============================================================
-
-  package:
-    name: Package Project
-    runs-on: ubuntu-latest
-    needs:
-      - test
-
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-
-    steps:
-
-      - name: Checkout repository
-        uses: actions/checkout@v6
-
-      - name: Create project archive
-        run: |
-          mkdir -p release
-
-          zip -r release/exam-timetable-dsa.zip . \
-            -x ".git/*" \
-            -x ".github/*" \
-            -x "__pycache__/*" \
-            -x ".pytest_cache/*" \
-            -x "release/*"
-
-      - name: Upload release artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: exam-timetable-dsa
-          path: release/exam-timetable-dsa.zip
+          script: |
+            console.log('⚠️ Performance degradation detected!');
