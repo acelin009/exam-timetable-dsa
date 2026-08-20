@@ -1,0 +1,265 @@
+student_id,class,subject_id,subject_name,subject_type
+A01,A,MAT,Mathematics,Core
+A01,A,DB,Database Systems,Core
+A01,A,CN,Computer Networks,Core
+A01,A,CLOUD,Cloud Computing,Elective
+A02,A,MAT,Mathematics,Core
+A02,A,DB,Database Systems,Core
+A02,A,CN,Computer Networks,Core
+A02,A,CLOUD,Cloud Computing,Elective
+A03,A,MAT,Mathematics,Core
+A03,A,DB,Database Systems,Core
+A03,A,CN,Computer Networks,Core
+A03,A,CYBERSECURITY_HONORS,Cybersecurity Honors,Honors
+A03,A,CLOUD,Cloud Computing,Elective
+A04,A,MAT,Mathematics,Core
+A04,A,DB,Database Systems,Core
+A04,A,CN,Computer Networks,Core
+A04,A,BLOCKCHAIN,Blockchain Technology,Elective
+A05,A,MAT,Mathematics,Core
+A05,A,DB,Database Systems,Core
+A05,A,CN,Computer Networks,Core
+A05,A,DATA_SCIENCE_HONORS,Data Science Honors,Honors
+A05,A,CLOUD,Cloud Computing,Elective
+A06,A,MAT,Mathematics,Core
+A06,A,DB,Database Systems,Core
+A06,A,CN,Computer Networks,Core
+A06,A,AI_HONORS,Artificial Intelligence Honors,Honors
+A06,A,CLOUD,Cloud Computing,Elective
+A07,A,MAT,Mathematics,Core
+A07,A,DB,Database Systems,Core
+A07,A,CN,Computer Networks,Core
+A07,A,CLOUD,Cloud Computing,Elective
+A08,A,MAT,Mathematics,Core
+A08,A,DB,Database Systems,Core
+A08,A,CN,Computer Networks,Core
+A08,A,BLOCKCHAIN,Blockchain Technology,Elective
+A09,A,MAT,Mathematics,Core
+A09,A,DB,Database Systems,Core
+A09,A,CN,Computer Networks,Core
+A09,A,BLOCKCHAIN,Blockchain Technology,Elective
+A10,A,MAT,Mathematics,Core
+A10,A,DB,Database Systems,Core
+A10,A,CN,Computer Networks,Core
+A10,A,DATA_MINING,Data Mining,Elective
+A11,A,MAT,Mathematics,Core
+A11,A,DB,Database Systems,Core
+A11,A,CN,Computer Networks,Core
+A11,A,CLOUD,Cloud Computing,Elective
+A12,A,MAT,Mathematics,Core
+A12,A,DB,Database Systems,Core
+A12,A,CN,Computer Networks,Core
+A12,A,CLOUD,Cloud Computing,Elective
+A13,A,MAT,Mathematics,Core
+A13,A,DB,Database Systems,Core
+A13,A,CN,Computer Networks,Core
+A13,A,DATA_MINING,Data Mining,Elective
+A14,A,MAT,Mathematics,Core
+A14,A,DB,Database Systems,Core
+A14,A,CN,Computer Networks,Core
+A14,A,AI_HONORS,Artificial Intelligence Honors,Honors
+A14,A,DATA_MINING,Data Mining,Elective
+A15,A,MAT,Mathematics,Core
+A15,A,DB,Database Systems,Core
+A15,A,CN,Computer Networks,Core
+A15,A,DATA_SCIENCE_HONORS,Data Science Honors,Honors
+A15,A,CLOUD,Cloud Computing,Elective
+A16,A,MAT,Mathematics,Core
+A16,A,DB,Database Systems,Core
+A16,A,CN,Computer Networks,Core
+A16,A,DATA_SCIENCE_HONORS,Data Science Honors,Honors
+A16,A,BLOCKCHAIN,Blockchain Technology,Elective
+A17,A,MAT,Mathematics,Core
+A17,A,DB,Database Systems,Core
+A17,A,CN,Computer Networks,Core
+A17,A,AI_HONORS,Artificial Intelligence Honors,Honors
+A17,A,BLOCKCHAIN,Blockchain Technology,Elective
+A18,A,MAT,Mathematics,Core
+A18,A,DB,Database Systems,Core
+A18,A,CN,Computer Networks,Core
+A18,A,CLOUD,Cloud Computing,Elective
+A19,A,MAT,Mathematics,Core
+A19,A,DB,Database Systems,Core
+A19,A,CN,Computer Networks,Core
+A19,A,DATA_MINING,Data Mining,Elective
+A20,A,MAT,Mathematics,Core
+A20,A,DB,Database Systems,Core
+A20,A,CN,Computer Networks,Core
+A20,A,DATA_SCIENCE_HONORS,Data Science Honors,Honors
+A20,A,BLOCKCHAIN,Blockchain Technology,Elective
+B01,B,MAT,Mathematics,Core
+B01,B,AI,Artificial Intelligence,Core
+B01,B,SE,Software Engineering,Core
+B01,B,DATA_MINING,Data Mining,Elective
+B02,B,MAT,Mathematics,Core
+B02,B,AI,Artificial Intelligence,Core
+B02,B,SE,Software Engineering,Core
+B02,B,BLOCKCHAIN,Blockchain Technology,Elective
+B03,B,MAT,Mathematics,Core
+B03,B,AI,Artificial Intelligence,Core
+B03,B,SE,Software Engineering,Core
+B03,B,CYBERSECURITY_HONORS,Cybersecurity Honors,Honors
+B03,B,CLOUD,Cloud Computing,Elective
+B04,B,MAT,Mathematics,Core
+B04,B,AI,Artificial Intelligence,Core
+B04,B,SE,Software Engineering,Core
+B04,B,CLOUD,Cloud Computing,Elective
+B05,B,MAT,Mathematics,Core
+B05,B,AI,Artificial Intelligence,Core
+B05,B,SE,Software Engineering,Core
+B05,B,CLOUD,Cloud Computing,Elective
+B06,B,MAT,Mathematics,Core
+B06,B,AI,Artificial Intelligence,Core
+B06,B,SE,Software Engineering,Core
+B06,B,DATA_SCIENCE_HONORS,Data Science Honors,Honors
+B06,B,BLOCKCHAIN,Blockchain Technology,Elective
+B07,B,MAT,Mathematics,Core
+B07,B,AI,Artificial Intelligence,Core
+B07,B,SE,Software Engineering,Core
+B07,B,CLOUD,Cloud Computing,Elective
+B08,B,MAT,Mathematics,Core
+B08,B,AI,Artificial Intelligence,Core
+B08,B,SE,Software Engineering,Core
+B08,B,AI_HONORS,Artificial Intelligence Honors,Honors
+B08,B,BLOCKCHAIN,Blockchain Technology,Elective
+B09,B,MAT,Mathematics,Core
+B09,B,AI,Artificial Intelligence,Core
+B09,B,SE,Software Engineering,Core
+B09,B,CYBERSECURITY_HONORS,Cybersecurity Honors,Honors
+B09,B,BLOCKCHAIN,Blockchain Technology,Elective
+B10,B,MAT,Mathematics,Core
+B10,B,AI,Artificial Intelligence,Core
+B10,B,SE,Software Engineering,Core
+B10,B,CYBERSECURITY_HONORS,Cybersecurity Honors,Honors
+B10,B,CLOUD,Cloud Computing,Elective
+B11,B,MAT,Mathematics,Core
+B11,B,AI,Artificial Intelligence,Core
+B11,B,SE,Software Engineering,Core
+B11,B,CLOUD,Cloud Computing,Elective
+B12,B,MAT,Mathematics,Core
+B12,B,AI,Artificial Intelligence,Core
+B12,B,SE,Software Engineering,Core
+B12,B,DATA_SCIENCE_HONORS,Data Science Honors,Honors
+B12,B,DATA_MINING,Data Mining,Elective
+B13,B,MAT,Mathematics,Core
+B13,B,AI,Artificial Intelligence,Core
+B13,B,SE,Software Engineering,Core
+B13,B,BLOCKCHAIN,Blockchain Technology,Elective
+B14,B,MAT,Mathematics,Core
+B14,B,AI,Artificial Intelligence,Core
+B14,B,SE,Software Engineering,Core
+B14,B,CLOUD,Cloud Computing,Elective
+B15,B,MAT,Mathematics,Core
+B15,B,AI,Artificial Intelligence,Core
+B15,B,SE,Software Engineering,Core
+B15,B,CLOUD,Cloud Computing,Elective
+B16,B,MAT,Mathematics,Core
+B16,B,AI,Artificial Intelligence,Core
+B16,B,SE,Software Engineering,Core
+B16,B,AI_HONORS,Artificial Intelligence Honors,Honors
+B16,B,DATA_MINING,Data Mining,Elective
+B17,B,MAT,Mathematics,Core
+B17,B,AI,Artificial Intelligence,Core
+B17,B,SE,Software Engineering,Core
+B17,B,CLOUD,Cloud Computing,Elective
+B18,B,MAT,Mathematics,Core
+B18,B,AI,Artificial Intelligence,Core
+B18,B,SE,Software Engineering,Core
+B18,B,CYBERSECURITY_HONORS,Cybersecurity Honors,Honors
+B18,B,BLOCKCHAIN,Blockchain Technology,Elective
+B19,B,MAT,Mathematics,Core
+B19,B,AI,Artificial Intelligence,Core
+B19,B,SE,Software Engineering,Core
+B19,B,CYBERSECURITY_HONORS,Cybersecurity Honors,Honors
+B19,B,DATA_MINING,Data Mining,Elective
+B20,B,MAT,Mathematics,Core
+B20,B,AI,Artificial Intelligence,Core
+B20,B,SE,Software Engineering,Core
+B20,B,CYBERSECURITY_HONORS,Cybersecurity Honors,Honors
+B20,B,DATA_MINING,Data Mining,Elective
+C01,C,MAT,Mathematics,Core
+C01,C,AI,Artificial Intelligence,Core
+C01,C,CN,Computer Networks,Core
+C01,C,AI_HONORS,Artificial Intelligence Honors,Honors
+C01,C,CLOUD,Cloud Computing,Elective
+C02,C,MAT,Mathematics,Core
+C02,C,AI,Artificial Intelligence,Core
+C02,C,CN,Computer Networks,Core
+C02,C,BLOCKCHAIN,Blockchain Technology,Elective
+C03,C,MAT,Mathematics,Core
+C03,C,AI,Artificial Intelligence,Core
+C03,C,CN,Computer Networks,Core
+C03,C,CYBERSECURITY_HONORS,Cybersecurity Honors,Honors
+C03,C,DATA_MINING,Data Mining,Elective
+C04,C,MAT,Mathematics,Core
+C04,C,AI,Artificial Intelligence,Core
+C04,C,CN,Computer Networks,Core
+C04,C,DATA_MINING,Data Mining,Elective
+C05,C,MAT,Mathematics,Core
+C05,C,AI,Artificial Intelligence,Core
+C05,C,CN,Computer Networks,Core
+C05,C,AI_HONORS,Artificial Intelligence Honors,Honors
+C05,C,BLOCKCHAIN,Blockchain Technology,Elective
+C06,C,MAT,Mathematics,Core
+C06,C,AI,Artificial Intelligence,Core
+C06,C,CN,Computer Networks,Core
+C06,C,CLOUD,Cloud Computing,Elective
+C07,C,MAT,Mathematics,Core
+C07,C,AI,Artificial Intelligence,Core
+C07,C,CN,Computer Networks,Core
+C07,C,CLOUD,Cloud Computing,Elective
+C08,C,MAT,Mathematics,Core
+C08,C,AI,Artificial Intelligence,Core
+C08,C,CN,Computer Networks,Core
+C08,C,BLOCKCHAIN,Blockchain Technology,Elective
+C09,C,MAT,Mathematics,Core
+C09,C,AI,Artificial Intelligence,Core
+C09,C,CN,Computer Networks,Core
+C09,C,CLOUD,Cloud Computing,Elective
+C10,C,MAT,Mathematics,Core
+C10,C,AI,Artificial Intelligence,Core
+C10,C,CN,Computer Networks,Core
+C10,C,CYBERSECURITY_HONORS,Cybersecurity Honors,Honors
+C10,C,DATA_MINING,Data Mining,Elective
+C11,C,MAT,Mathematics,Core
+C11,C,AI,Artificial Intelligence,Core
+C11,C,CN,Computer Networks,Core
+C11,C,BLOCKCHAIN,Blockchain Technology,Elective
+C12,C,MAT,Mathematics,Core
+C12,C,AI,Artificial Intelligence,Core
+C12,C,CN,Computer Networks,Core
+C12,C,CLOUD,Cloud Computing,Elective
+C13,C,MAT,Mathematics,Core
+C13,C,AI,Artificial Intelligence,Core
+C13,C,CN,Computer Networks,Core
+C13,C,CLOUD,Cloud Computing,Elective
+C14,C,MAT,Mathematics,Core
+C14,C,AI,Artificial Intelligence,Core
+C14,C,CN,Computer Networks,Core
+C14,C,BLOCKCHAIN,Blockchain Technology,Elective
+C15,C,MAT,Mathematics,Core
+C15,C,AI,Artificial Intelligence,Core
+C15,C,CN,Computer Networks,Core
+C15,C,BLOCKCHAIN,Blockchain Technology,Elective
+C16,C,MAT,Mathematics,Core
+C16,C,AI,Artificial Intelligence,Core
+C16,C,CN,Computer Networks,Core
+C16,C,DATA_SCIENCE_HONORS,Data Science Honors,Honors
+C16,C,DATA_MINING,Data Mining,Elective
+C17,C,MAT,Mathematics,Core
+C17,C,AI,Artificial Intelligence,Core
+C17,C,CN,Computer Networks,Core
+C17,C,AI_HONORS,Artificial Intelligence Honors,Honors
+C17,C,BLOCKCHAIN,Blockchain Technology,Elective
+C18,C,MAT,Mathematics,Core
+C18,C,AI,Artificial Intelligence,Core
+C18,C,CN,Computer Networks,Core
+C18,C,DATA_MINING,Data Mining,Elective
+C19,C,MAT,Mathematics,Core
+C19,C,AI,Artificial Intelligence,Core
+C19,C,CN,Computer Networks,Core
+C19,C,CLOUD,Cloud Computing,Elective
+C20,C,MAT,Mathematics,Core
+C20,C,AI,Artificial Intelligence,Core
+C20,C,CN,Computer Networks,Core
+C20,C,CLOUD,Cloud Computing,Elective

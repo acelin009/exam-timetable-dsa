@@ -1,0 +1,12 @@
+subject_id,subject_name,subject_type
+MAT,Mathematics,Core
+DB,Database Systems,Core
+CN,Computer Networks,Core
+AI,Artificial Intelligence,Core
+SE,Software Engineering,Core
+AI_HONORS,Artificial Intelligence Honors,Honors
+DATA_SCIENCE_HONORS,Data Science Honors,Honors
+CYBERSECURITY_HONORS,Cybersecurity Honors,Honors
+CLOUD,Cloud Computing,Elective
+DATA_MINING,Data Mining,Elective
+BLOCKCHAIN,Blockchain Technology,Elective

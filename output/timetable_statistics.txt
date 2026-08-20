@@ -1,0 +1,14 @@
+TIMETABLE STATISTICS
+=====================
+
+Total students: 60
+Total subjects: 11
+Total registrations: 264
+Total conflicts (edges): 46
+Exam slots used: 10
+Days used: 5
+Max exams/student/day: 1
+Min gap between exams (slots): 1
+Most conflicting subject: MAT
+Highest enrollment subject: MAT
+Average subjects/day: 2.20

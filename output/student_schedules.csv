@@ -1,0 +1,265 @@
+student_id,class,subject_id,subject_name,day,time
+A01,A,MAT,Mathematics,Monday,09:00
+A01,A,DB,Database Systems,Wednesday,14:00
+A01,A,CN,Computer Networks,Tuesday,09:00
+A01,A,CLOUD,Cloud Computing,Friday,09:00
+A02,A,MAT,Mathematics,Monday,09:00
+A02,A,DB,Database Systems,Wednesday,14:00
+A02,A,CN,Computer Networks,Tuesday,09:00
+A02,A,CLOUD,Cloud Computing,Friday,09:00
+A03,A,MAT,Mathematics,Monday,09:00
+A03,A,DB,Database Systems,Wednesday,14:00
+A03,A,CN,Computer Networks,Tuesday,09:00
+A03,A,CYBERSECURITY_HONORS,Cybersecurity Honors,Thursday,09:00
+A03,A,CLOUD,Cloud Computing,Friday,09:00
+A04,A,MAT,Mathematics,Monday,09:00
+A04,A,DB,Database Systems,Wednesday,14:00
+A04,A,CN,Computer Networks,Tuesday,09:00
+A04,A,BLOCKCHAIN,Blockchain Technology,Friday,09:00
+A05,A,MAT,Mathematics,Monday,09:00
+A05,A,DB,Database Systems,Wednesday,14:00
+A05,A,CN,Computer Networks,Tuesday,09:00
+A05,A,DATA_SCIENCE_HONORS,Data Science Honors,Thursday,14:00
+A05,A,CLOUD,Cloud Computing,Friday,09:00
+A06,A,MAT,Mathematics,Monday,09:00
+A06,A,DB,Database Systems,Wednesday,14:00
+A06,A,CN,Computer Networks,Tuesday,09:00
+A06,A,AI_HONORS,Artificial Intelligence Honors,Thursday,09:00
+A06,A,CLOUD,Cloud Computing,Friday,09:00
+A07,A,MAT,Mathematics,Monday,09:00
+A07,A,DB,Database Systems,Wednesday,14:00
+A07,A,CN,Computer Networks,Tuesday,09:00
+A07,A,CLOUD,Cloud Computing,Friday,09:00
+A08,A,MAT,Mathematics,Monday,09:00
+A08,A,DB,Database Systems,Wednesday,14:00
+A08,A,CN,Computer Networks,Tuesday,09:00
+A08,A,BLOCKCHAIN,Blockchain Technology,Friday,09:00
+A09,A,MAT,Mathematics,Monday,09:00
+A09,A,DB,Database Systems,Wednesday,14:00
+A09,A,CN,Computer Networks,Tuesday,09:00
+A09,A,BLOCKCHAIN,Blockchain Technology,Friday,09:00
+A10,A,MAT,Mathematics,Monday,09:00
+A10,A,DB,Database Systems,Wednesday,14:00
+A10,A,CN,Computer Networks,Tuesday,09:00
+A10,A,DATA_MINING,Data Mining,Friday,14:00
+A11,A,MAT,Mathematics,Monday,09:00
+A11,A,DB,Database Systems,Wednesday,14:00
+A11,A,CN,Computer Networks,Tuesday,09:00
+A11,A,CLOUD,Cloud Computing,Friday,09:00
+A12,A,MAT,Mathematics,Monday,09:00
+A12,A,DB,Database Systems,Wednesday,14:00
+A12,A,CN,Computer Networks,Tuesday,09:00
+A12,A,CLOUD,Cloud Computing,Friday,09:00
+A13,A,MAT,Mathematics,Monday,09:00
+A13,A,DB,Database Systems,Wednesday,14:00
+A13,A,CN,Computer Networks,Tuesday,09:00
+A13,A,DATA_MINING,Data Mining,Friday,14:00
+A14,A,MAT,Mathematics,Monday,09:00
+A14,A,DB,Database Systems,Wednesday,14:00
+A14,A,CN,Computer Networks,Tuesday,09:00
+A14,A,AI_HONORS,Artificial Intelligence Honors,Thursday,09:00
+A14,A,DATA_MINING,Data Mining,Friday,14:00
+A15,A,MAT,Mathematics,Monday,09:00
+A15,A,DB,Database Systems,Wednesday,14:00
+A15,A,CN,Computer Networks,Tuesday,09:00
+A15,A,DATA_SCIENCE_HONORS,Data Science Honors,Thursday,14:00
+A15,A,CLOUD,Cloud Computing,Friday,09:00
+A16,A,MAT,Mathematics,Monday,09:00
+A16,A,DB,Database Systems,Wednesday,14:00
+A16,A,CN,Computer Networks,Tuesday,09:00
+A16,A,DATA_SCIENCE_HONORS,Data Science Honors,Thursday,14:00
+A16,A,BLOCKCHAIN,Blockchain Technology,Friday,09:00
+A17,A,MAT,Mathematics,Monday,09:00
+A17,A,DB,Database Systems,Wednesday,14:00
+A17,A,CN,Computer Networks,Tuesday,09:00
+A17,A,AI_HONORS,Artificial Intelligence Honors,Thursday,09:00
+A17,A,BLOCKCHAIN,Blockchain Technology,Friday,09:00
+A18,A,MAT,Mathematics,Monday,09:00
+A18,A,DB,Database Systems,Wednesday,14:00
+A18,A,CN,Computer Networks,Tuesday,09:00
+A18,A,CLOUD,Cloud Computing,Friday,09:00
+A19,A,MAT,Mathematics,Monday,09:00
+A19,A,DB,Database Systems,Wednesday,14:00
+A19,A,CN,Computer Networks,Tuesday,09:00
+A19,A,DATA_MINING,Data Mining,Friday,14:00
+A20,A,MAT,Mathematics,Monday,09:00
+A20,A,DB,Database Systems,Wednesday,14:00
+A20,A,CN,Computer Networks,Tuesday,09:00
+A20,A,DATA_SCIENCE_HONORS,Data Science Honors,Thursday,14:00
+A20,A,BLOCKCHAIN,Blockchain Technology,Friday,09:00
+B01,B,MAT,Mathematics,Monday,09:00
+B01,B,AI,Artificial Intelligence,Wednesday,09:00
+B01,B,SE,Software Engineering,Tuesday,14:00
+B01,B,DATA_MINING,Data Mining,Friday,14:00
+B02,B,MAT,Mathematics,Monday,09:00
+B02,B,AI,Artificial Intelligence,Wednesday,09:00
+B02,B,SE,Software Engineering,Tuesday,14:00
+B02,B,BLOCKCHAIN,Blockchain Technology,Friday,09:00
+B03,B,MAT,Mathematics,Monday,09:00
+B03,B,AI,Artificial Intelligence,Wednesday,09:00
+B03,B,SE,Software Engineering,Tuesday,14:00
+B03,B,CYBERSECURITY_HONORS,Cybersecurity Honors,Thursday,09:00
+B03,B,CLOUD,Cloud Computing,Friday,09:00
+B04,B,MAT,Mathematics,Monday,09:00
+B04,B,AI,Artificial Intelligence,Wednesday,09:00
+B04,B,SE,Software Engineering,Tuesday,14:00
+B04,B,CLOUD,Cloud Computing,Friday,09:00
+B05,B,MAT,Mathematics,Monday,09:00
+B05,B,AI,Artificial Intelligence,Wednesday,09:00
+B05,B,SE,Software Engineering,Tuesday,14:00
+B05,B,CLOUD,Cloud Computing,Friday,09:00
+B06,B,MAT,Mathematics,Monday,09:00
+B06,B,AI,Artificial Intelligence,Wednesday,09:00
+B06,B,SE,Software Engineering,Tuesday,14:00
+B06,B,DATA_SCIENCE_HONORS,Data Science Honors,Thursday,14:00
+B06,B,BLOCKCHAIN,Blockchain Technology,Friday,09:00
+B07,B,MAT,Mathematics,Monday,09:00
+B07,B,AI,Artificial Intelligence,Wednesday,09:00
+B07,B,SE,Software Engineering,Tuesday,14:00
+B07,B,CLOUD,Cloud Computing,Friday,09:00
+B08,B,MAT,Mathematics,Monday,09:00
+B08,B,AI,Artificial Intelligence,Wednesday,09:00
+B08,B,SE,Software Engineering,Tuesday,14:00
+B08,B,AI_HONORS,Artificial Intelligence Honors,Thursday,09:00
+B08,B,BLOCKCHAIN,Blockchain Technology,Friday,09:00
+B09,B,MAT,Mathematics,Monday,09:00
+B09,B,AI,Artificial Intelligence,Wednesday,09:00
+B09,B,SE,Software Engineering,Tuesday,14:00
+B09,B,CYBERSECURITY_HONORS,Cybersecurity Honors,Thursday,09:00
+B09,B,BLOCKCHAIN,Blockchain Technology,Friday,09:00
+B10,B,MAT,Mathematics,Monday,09:00
+B10,B,AI,Artificial Intelligence,Wednesday,09:00
+B10,B,SE,Software Engineering,Tuesday,14:00
+B10,B,CYBERSECURITY_HONORS,Cybersecurity Honors,Thursday,09:00
+B10,B,CLOUD,Cloud Computing,Friday,09:00
+B11,B,MAT,Mathematics,Monday,09:00
+B11,B,AI,Artificial Intelligence,Wednesday,09:00
+B11,B,SE,Software Engineering,Tuesday,14:00
+B11,B,CLOUD,Cloud Computing,Friday,09:00
+B12,B,MAT,Mathematics,Monday,09:00
+B12,B,AI,Artificial Intelligence,Wednesday,09:00
+B12,B,SE,Software Engineering,Tuesday,14:00
+B12,B,DATA_SCIENCE_HONORS,Data Science Honors,Thursday,14:00
+B12,B,DATA_MINING,Data Mining,Friday,14:00
+B13,B,MAT,Mathematics,Monday,09:00
+B13,B,AI,Artificial Intelligence,Wednesday,09:00
+B13,B,SE,Software Engineering,Tuesday,14:00
+B13,B,BLOCKCHAIN,Blockchain Technology,Friday,09:00
+B14,B,MAT,Mathematics,Monday,09:00
+B14,B,AI,Artificial Intelligence,Wednesday,09:00
+B14,B,SE,Software Engineering,Tuesday,14:00
+B14,B,CLOUD,Cloud Computing,Friday,09:00
+B15,B,MAT,Mathematics,Monday,09:00
+B15,B,AI,Artificial Intelligence,Wednesday,09:00
+B15,B,SE,Software Engineering,Tuesday,14:00
+B15,B,CLOUD,Cloud Computing,Friday,09:00
+B16,B,MAT,Mathematics,Monday,09:00
+B16,B,AI,Artificial Intelligence,Wednesday,09:00
+B16,B,SE,Software Engineering,Tuesday,14:00
+B16,B,AI_HONORS,Artificial Intelligence Honors,Thursday,09:00
+B16,B,DATA_MINING,Data Mining,Friday,14:00
+B17,B,MAT,Mathematics,Monday,09:00
+B17,B,AI,Artificial Intelligence,Wednesday,09:00
+B17,B,SE,Software Engineering,Tuesday,14:00
+B17,B,CLOUD,Cloud Computing,Friday,09:00
+B18,B,MAT,Mathematics,Monday,09:00
+B18,B,AI,Artificial Intelligence,Wednesday,09:00
+B18,B,SE,Software Engineering,Tuesday,14:00
+B18,B,CYBERSECURITY_HONORS,Cybersecurity Honors,Thursday,09:00
+B18,B,BLOCKCHAIN,Blockchain Technology,Friday,09:00
+B19,B,MAT,Mathematics,Monday,09:00
+B19,B,AI,Artificial Intelligence,Wednesday,09:00
+B19,B,SE,Software Engineering,Tuesday,14:00
+B19,B,CYBERSECURITY_HONORS,Cybersecurity Honors,Thursday,09:00
+B19,B,DATA_MINING,Data Mining,Friday,14:00
+B20,B,MAT,Mathematics,Monday,09:00
+B20,B,AI,Artificial Intelligence,Wednesday,09:00
+B20,B,SE,Software Engineering,Tuesday,14:00
+B20,B,CYBERSECURITY_HONORS,Cybersecurity Honors,Thursday,09:00
+B20,B,DATA_MINING,Data Mining,Friday,14:00
+C01,C,MAT,Mathematics,Monday,09:00
+C01,C,AI,Artificial Intelligence,Wednesday,09:00
+C01,C,CN,Computer Networks,Tuesday,09:00
+C01,C,AI_HONORS,Artificial Intelligence Honors,Thursday,09:00
+C01,C,CLOUD,Cloud Computing,Friday,09:00
+C02,C,MAT,Mathematics,Monday,09:00
+C02,C,AI,Artificial Intelligence,Wednesday,09:00
+C02,C,CN,Computer Networks,Tuesday,09:00
+C02,C,BLOCKCHAIN,Blockchain Technology,Friday,09:00
+C03,C,MAT,Mathematics,Monday,09:00
+C03,C,AI,Artificial Intelligence,Wednesday,09:00
+C03,C,CN,Computer Networks,Tuesday,09:00
+C03,C,CYBERSECURITY_HONORS,Cybersecurity Honors,Thursday,09:00
+C03,C,DATA_MINING,Data Mining,Friday,14:00
+C04,C,MAT,Mathematics,Monday,09:00
+C04,C,AI,Artificial Intelligence,Wednesday,09:00
+C04,C,CN,Computer Networks,Tuesday,09:00
+C04,C,DATA_MINING,Data Mining,Friday,14:00
+C05,C,MAT,Mathematics,Monday,09:00
+C05,C,AI,Artificial Intelligence,Wednesday,09:00
+C05,C,CN,Computer Networks,Tuesday,09:00
+C05,C,AI_HONORS,Artificial Intelligence Honors,Thursday,09:00
+C05,C,BLOCKCHAIN,Blockchain Technology,Friday,09:00
+C06,C,MAT,Mathematics,Monday,09:00
+C06,C,AI,Artificial Intelligence,Wednesday,09:00
+C06,C,CN,Computer Networks,Tuesday,09:00
+C06,C,CLOUD,Cloud Computing,Friday,09:00
+C07,C,MAT,Mathematics,Monday,09:00
+C07,C,AI,Artificial Intelligence,Wednesday,09:00
+C07,C,CN,Computer Networks,Tuesday,09:00
+C07,C,CLOUD,Cloud Computing,Friday,09:00
+C08,C,MAT,Mathematics,Monday,09:00
+C08,C,AI,Artificial Intelligence,Wednesday,09:00
+C08,C,CN,Computer Networks,Tuesday,09:00
+C08,C,BLOCKCHAIN,Blockchain Technology,Friday,09:00
+C09,C,MAT,Mathematics,Monday,09:00
+C09,C,AI,Artificial Intelligence,Wednesday,09:00
+C09,C,CN,Computer Networks,Tuesday,09:00
+C09,C,CLOUD,Cloud Computing,Friday,09:00
+C10,C,MAT,Mathematics,Monday,09:00
+C10,C,AI,Artificial Intelligence,Wednesday,09:00
+C10,C,CN,Computer Networks,Tuesday,09:00
+C10,C,CYBERSECURITY_HONORS,Cybersecurity Honors,Thursday,09:00
+C10,C,DATA_MINING,Data Mining,Friday,14:00
+C11,C,MAT,Mathematics,Monday,09:00
+C11,C,AI,Artificial Intelligence,Wednesday,09:00
+C11,C,CN,Computer Networks,Tuesday,09:00
+C11,C,BLOCKCHAIN,Blockchain Technology,Friday,09:00
+C12,C,MAT,Mathematics,Monday,09:00
+C12,C,AI,Artificial Intelligence,Wednesday,09:00
+C12,C,CN,Computer Networks,Tuesday,09:00
+C12,C,CLOUD,Cloud Computing,Friday,09:00
+C13,C,MAT,Mathematics,Monday,09:00
+C13,C,AI,Artificial Intelligence,Wednesday,09:00
+C13,C,CN,Computer Networks,Tuesday,09:00
+C13,C,CLOUD,Cloud Computing,Friday,09:00
+C14,C,MAT,Mathematics,Monday,09:00
+C14,C,AI,Artificial Intelligence,Wednesday,09:00
+C14,C,CN,Computer Networks,Tuesday,09:00
+C14,C,BLOCKCHAIN,Blockchain Technology,Friday,09:00
+C15,C,MAT,Mathematics,Monday,09:00
+C15,C,AI,Artificial Intelligence,Wednesday,09:00
+C15,C,CN,Computer Networks,Tuesday,09:00
+C15,C,BLOCKCHAIN,Blockchain Technology,Friday,09:00
+C16,C,MAT,Mathematics,Monday,09:00
+C16,C,AI,Artificial Intelligence,Wednesday,09:00
+C16,C,CN,Computer Networks,Tuesday,09:00
+C16,C,DATA_SCIENCE_HONORS,Data Science Honors,Thursday,14:00
+C16,C,DATA_MINING,Data Mining,Friday,14:00
+C17,C,MAT,Mathematics,Monday,09:00
+C17,C,AI,Artificial Intelligence,Wednesday,09:00
+C17,C,CN,Computer Networks,Tuesday,09:00
+C17,C,AI_HONORS,Artificial Intelligence Honors,Thursday,09:00
+C17,C,BLOCKCHAIN,Blockchain Technology,Friday,09:00
+C18,C,MAT,Mathematics,Monday,09:00
+C18,C,AI,Artificial Intelligence,Wednesday,09:00
+C18,C,CN,Computer Networks,Tuesday,09:00
+C18,C,DATA_MINING,Data Mining,Friday,14:00
+C19,C,MAT,Mathematics,Monday,09:00
+C19,C,AI,Artificial Intelligence,Wednesday,09:00
+C19,C,CN,Computer Networks,Tuesday,09:00
+C19,C,CLOUD,Cloud Computing,Friday,09:00
+C20,C,MAT,Mathematics,Monday,09:00
+C20,C,AI,Artificial Intelligence,Wednesday,09:00
+C20,C,CN,Computer Networks,Tuesday,09:00
+C20,C,CLOUD,Cloud Computing,Friday,09:00

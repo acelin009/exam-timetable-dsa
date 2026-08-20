@@ -1,0 +1,12 @@
+subject_id,subject_name,subject_type,day,slot,time
+MAT,Mathematics,Core,Monday,0,09:00
+DB,Database Systems,Core,Wednesday,5,14:00
+CN,Computer Networks,Core,Tuesday,2,09:00
+AI,Artificial Intelligence,Core,Wednesday,4,09:00
+SE,Software Engineering,Core,Tuesday,3,14:00
+AI_HONORS,Artificial Intelligence Honors,Honors,Thursday,6,09:00
+DATA_SCIENCE_HONORS,Data Science Honors,Honors,Thursday,7,14:00
+CYBERSECURITY_HONORS,Cybersecurity Honors,Honors,Thursday,6,09:00
+CLOUD,Cloud Computing,Elective,Friday,8,09:00
+DATA_MINING,Data Mining,Elective,Friday,9,14:00
+BLOCKCHAIN,Blockchain Technology,Elective,Friday,8,09:00
