@@ -297,6 +297,35 @@ over.
 - `docs/algorithm.md` — DSATUR/backtracking walked through by hand on a
   tiny example
 
+## Regenerating the dataset (optional, Python)
+
+The C solver has zero Python dependency — this is only needed if you
+want to regenerate `data/*.csv` with different parameters (class
+sizes, honors probability, seed, etc). It lives entirely in `tools/`.
+
+```bash
+bash tools/setup_venv.sh          # creates .venv/, installs pandas
+source .venv/bin/activate
+python tools/dsa_dataset.py       # writes into data/
+deactivate
+```
+
+## CI/CD (GitHub Actions)
+
+`.github/workflows/ci.yml` runs on every push/PR to `main`:
+
+1. **build-and-test** — `make`, `make test`, then runs the real
+   pipeline (`--compare`, `--validate`) against `data/` and fails the
+   build unless the final timetable is `VALID` (exit code 0).
+2. **memory-safety** — rebuilds under AddressSanitizer +
+   UndefinedBehaviorSanitizer and runs the full pipeline; fails on any
+   real memory bug (leak detection is intentionally off, since this
+   short-lived CLI relies on OS reclamation at exit — see "Known
+   limitation" above).
+3. **strict-warnings** — rebuilds with `-Wall -Wextra -Werror`.
+4. **dataset-generator-smoke-test** — optional/non-blocking; confirms
+   `tools/dsa_dataset.py` still runs on a fresh Python install.
+
 ## Known limitation
 
 The process does not explicitly `free()` every hash map / graph
